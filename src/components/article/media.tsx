@@ -7,7 +7,7 @@ function Media({
   className,
 }: PropsWithChildren<{
   as?: keyof JSX.IntrinsicElements
-  className?: string
+  className?: string 
 }>) {
   return (
     <Tag
